@@ -1,0 +1,5 @@
+Running: xsim.dir/Fetch_Unit_tb_behav/xsimk.exe -simmode gui -wdb Fetch_Unit_tb_behav.wdb -simrunnum 0 -socket 4028
+Design successfully loaded
+Design Loading CPU Usage: 296 ms
+Simulation completed
+Simulation CPU Usage: 312 ms
