@@ -1,5 +1,0 @@
-Running: xsim.dir/Decode_Unit_tb_behav/xsimk.exe -simmode gui -wdb Decode_Unit_tb_behav.wdb -simrunnum 0 -socket 64170
-Design successfully loaded
-Design Loading CPU Usage: 343 ms
-Simulation completed
-Simulation CPU Usage: 359 ms
