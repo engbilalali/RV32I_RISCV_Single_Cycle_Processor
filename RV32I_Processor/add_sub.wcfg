@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Processor_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/extended_immediate" type="array">
+      <obj_property name="ElementShortName">extended_immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extended_immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/reg_write_data" type="array">
+      <obj_property name="ElementShortName">reg_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/operand_b" type="array">
+      <obj_property name="ElementShortName">operand_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/reg1out" type="array">
+      <obj_property name="ElementShortName">reg1out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/reg2out" type="array">
+      <obj_property name="ElementShortName">reg2out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/datamemory_out" type="array">
+      <obj_property name="ElementShortName">datamemory_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datamemory_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/datamemory_mode" type="array">
+      <obj_property name="ElementShortName">datamemory_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">datamemory_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/pc_sel" type="array">
+      <obj_property name="ElementShortName">pc_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/writeback_sel" type="array">
+      <obj_property name="ElementShortName">writeback_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">writeback_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/datamemWE" type="logic">
+      <obj_property name="ElementShortName">datamemWE</obj_property>
+      <obj_property name="ObjectShortName">datamemWE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Processor_tb/processor/reg1sel_flag" type="logic">
+      <obj_property name="ElementShortName">reg1sel_flag</obj_property>
+      <obj_property name="ObjectShortName">reg1sel_flag</obj_property>
+   </wvobject>
+</wave_config>
