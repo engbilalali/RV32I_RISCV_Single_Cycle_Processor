@@ -1,0 +1,222 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 19292
+
+Current time: 	10/6/24 9:08:24 PM
+Time zone: 	Pakistan Time (Asia/Karachi)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	Elitebook
+User directory: C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 502 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.9s
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\Users\Elitebook\Desktop\code\FPGA\RISC_V\Processor_part2\Processor_part2.xpr' : addNotify
+// Tcl Message: open_project {C:\Users\Elitebook\Desktop\code\FPGA\RISC_V\Processor_part2\Processor_part2.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 54 mb (+54108kb) [00:00:12]
+// [Engine Memory]: 404 mb (+272071kb) [00:00:12]
+// [GUI Memory]: 69 mb (+15667kb) [00:00:14]
+// [Engine Memory]: 406 mb (+1949kb) [00:00:14]
+// [GUI Memory]: 78 mb (+9706kb) [00:00:14]
+// [Engine Memory]: 407 mb (+1007kb) [00:00:14]
+// [Engine Memory]: 501 mb (+98705kb) [00:00:16]
+// [GUI Memory]: 81 mb (+2467kb) [00:00:18]
+// Tcl Message: open_project {C:\Users\Elitebook\Desktop\code\FPGA\RISC_V\Processor_part2\Processor_part2.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// [Engine Memory]: 502 mb (+991kb) [00:00:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 30 MB. Current time: 10/6/24 9:08:24 PM
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 850.641 ; gain = 44.027 
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Opening project 'C:\\Users\\Elitebook\\Desktop\\code\\FPGA\\RISC_V\\Processor_part2\\Processor_part2.xpr'"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// [Engine Memory]: 503 mb (+1286kb) [00:00:29]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v)]", 3); // u:k (w:JPanel, cg:JFrame)
+// [Engine Memory]: 503 mb (+253kb) [00:00:31]
+// PAPropertyPanels.initPanels (control_logic.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), control_logic - Control_Logic (control_logic.v)]", 5, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), control_logic - Control_Logic (control_logic.v)]", 5, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 506 mb (+3162kb) [00:00:33]
+// [Engine Memory]: 506 mb (+122kb) [00:00:33]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L:a (Workspace:JPanel, cg:JFrame)
+// [Engine Memory]: 520 mb (+13713kb) [00:00:55]
+// Elapsed time: 73 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ah:DockableFrame
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), extend_immediate - extend (extend.v)]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), extend_immediate - extend (extend.v)]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [GUI Memory]: 82 mb (+1104kb) [00:01:52]
+// Elapsed time: 14 seconds
+selectCodeEditor("extend.v", 270, 446); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), execute_unit - Execute_Unit (Execute_Unit.v)]", 8); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), execute_unit - Execute_Unit (Execute_Unit.v), alu - ALU (ALU.v)]", 10, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), execute_unit - Execute_Unit (Execute_Unit.v), alu - ALU (ALU.v)]", 10, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 122 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 82 mb (+621kb) [00:05:56]
+// Elapsed time: 77 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 32 MB. Current time: 10/6/24 9:14:19 PM
+// [Engine Memory]: 523 mb (+3399kb) [00:06:21]
+// Elapsed time: 459 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [Engine Memory]: 526 mb (+2899kb) [00:18:12]
+// Elapsed time: 530 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "extend.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [Engine Memory]: 533 mb (+7409kb) [00:26:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 35 MB. Current time: 10/6/24 9:44:23 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 34 MB. Current time: 10/7/24 1:07:10 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 31 MB. Current time: 10/7/24 8:07:15 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 30 MB. Current time: 10/7/24 8:37:17 AM
+// Elapsed time: 40247 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), extend_immediate - extend (extend.v)]", 6, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), decode_unit - Decode_Unit (Decode_Unit.v), extend_immediate - extend (extend.v)]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 135 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 602 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), fetch_unit - Fetch_Unit (Fetch_Unit.v)]", 2); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), fetch_unit - Fetch_Unit (Fetch_Unit.v), memory - Instruction_Memory (Instruction_Memory.v)]", 3, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Processor_RV32I (Processor_RV32I.v), fetch_unit - Fetch_Unit (Fetch_Unit.v), memory - Instruction_Memory (Instruction_Memory.v)]", 3, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("Instruction_Memory.v", 26, 111); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // w:X (v:w, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:co (cg:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Tcl Message: INFO: [Runs 36-5] Copied auxiliary file 'Decode_Unit_tb.v' to 'C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav' INFO: [Runs 36-5] Copied auxiliary file 'Fetch_Unit_tb.v' to 'C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav' INFO: [Runs 36-130] *** Running xelab     with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Processor_tb_behav --prj C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav/Processor_tb.prj   xil_defaultlib.Processor_tb   xil_defaultlib.glbl" 
+// Tcl Message: Vivado Simulator 2014.2 Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Processor_tb_behav --prj C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav/Processor_tb.prj xil_defaultlib.Processor_tb xil_defaultlib.glbl  Multi-threading is on. Using 2 slave threads. Determining compilation order of HDL files. 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot Processor_tb_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "Processor_tb_behav -key {Behavioral:sim_1:Functional:Processor_tb} -tclbatch {Processor_tb.tcl} -log {Processor_tb_behav.log}" 
+// Tcl Message: Vivado Simulator 2014.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [Engine Memory]: 533 mb (+692kb) [11:49:26]
+// [Engine Memory]: 535 mb (+1822kb) [11:49:26]
+// [Engine Memory]: 546 mb (+11923kb) [11:49:26]
+// [Engine Memory]: 549 mb (+2486kb) [11:49:26]
+// [GUI Memory]: 84 mb (+1929kb) [11:49:29]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 33 MB. Current time: 10/7/24 8:57:34 AM
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 870.297 ; gain = 13.473 
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'Processor_tb_behav' loaded. INFO: [Vivado 12-3703] XSim simulation ran for 1000ns 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 870.297 ; gain = 13.473 
+// Elapsed time: 23 seconds
+dismissDialog("Run Simulation"); // e:co (cg:JFrame)
+// [Engine Memory]: 551 mb (+2437kb) [11:49:33]

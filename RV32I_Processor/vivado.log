@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Oct 06 21:07:50 2024
+# Process ID: 19292
+# Log file: C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/vivado.log
+# Journal file: C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Elitebook\Desktop\code\FPGA\RISC_V\Processor_part2\Processor_part2.xpr}
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 850.641 ; gain = 44.027
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-5] Copied auxiliary file 'Decode_Unit_tb.v' to 'C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav'
+INFO: [Runs 36-5] Copied auxiliary file 'Fetch_Unit_tb.v' to 'C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav'
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Processor_tb_behav --prj C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav/Processor_tb.prj   xil_defaultlib.Processor_tb   xil_defaultlib.glbl"
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Processor_tb_behav --prj C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.sim/sim_1/behav/Processor_tb.prj xil_defaultlib.Processor_tb xil_defaultlib.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/source/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/source/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/source/control_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Logic
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/new/Program_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/imports/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/WriteBack_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WriteBack_Unit
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/Memory_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory_Unit
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/Fetch_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fetch_Unit
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/Execute_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execute_Unit
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/Decode_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decode_Unit
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sources_1/new/Processor_RV32I.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor_RV32I
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/Processor_part2.srcs/sim_1/new/Processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor_tb
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.Fetch_Unit
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.Control_Logic
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.Decode_Unit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Execute_Unit
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Memory_Unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.WriteBack_Unit
+Compiling module xil_defaultlib.Processor_RV32I
+Compiling module xil_defaultlib.Processor_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Processor_tb_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "Processor_tb_behav -key {Behavioral:sim_1:Functional:Processor_tb} -tclbatch {Processor_tb.tcl} -log {Processor_tb_behav.log}"
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 870.297 ; gain = 13.473
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'Processor_tb_behav' loaded.
+INFO: [Vivado 12-3703] XSim simulation ran for 1000ns
+launch_xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 870.297 ; gain = 13.473

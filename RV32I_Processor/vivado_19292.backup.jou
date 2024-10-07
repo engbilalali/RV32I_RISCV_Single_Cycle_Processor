@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Oct 04 00:21:56 2024
+# Process ID: 16428
+# Log file: C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2/vivado.log
+# Journal file: C:/Users/Elitebook/Desktop/code/FPGA/RISC_V/Processor_part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Elitebook\Desktop\code\FPGA\RISC_V\Processor_part2\Processor_part2.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
